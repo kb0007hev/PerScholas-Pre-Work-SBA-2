@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Tip Calculator Form</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+
+
+        <body>
+
+                <h1>Tip Calculator Form</h1>  <sup>Per Scholas</sup>
+                 
+
+                    <form>
+                            <fieldset> 
+                                <legend>Scratch Our Back & We Sractch Yours (Tip Form)</legend>
+                                <label for="billAmount">Enter your Bill Amount: 
+                                <input id="billAmount" type="text" name="billAmount">
+                                </label>
+                                
+                                <label for="serviceQuality"> (Service Fee) - How was your service:  
+                                <select id="serviceQuality" type="dropdown" name="serviceQuality">
+                                    <option value="0">-- Choose an option --</option>
+
+                                    <option value="1.00">100% - You're The Best</option>
+
+                                    <option value="0.75">75% - Out of this world</option>
+
+                                    <option value="0.50">50% - Amazing</option>
+
+                                    <option value="0.1">10% - Bad Service</option>
+
+                                    <option value="0.00">0% - Horrible Service</option>
+                                </select>
+                                </label>
+
+                                <label for="extraTip"> Extra Tip - For Being In School and a Great Person:
+                                    <select  id="extraTip" type="dropdown" name="extraTip"> 
+                                        <option value="0">-- Choose an option --</option>
+    
+                                        <option value="1.00">100% - Great Person & In School</option>
+    
+                                        <option value="0.75">75% - You're a Great Person</option>
+    
+                                        <option value="0.50">50% - You're in School</option>
+                                    </select>
+                                </label>
+
+                                <input type="submit" value="Calculate"> 
+
+                        <div class="outPut"></div>
+
+                        <script src="logic.js">
+                            
+                        </script>
+
+                         </fieldset>     
+                    </form>
+        </body>
+
+</html>
